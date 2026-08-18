@@ -26,7 +26,9 @@ int main(){
     printf("Entre com o valor de A:\n ");
     scanf("%lf", &A);
 
-    A >= 1 && A < 10;
+    if (A >= 1 && A < 10){
+        //valido
+    }
 
     printf("Entre com o valor de n:\n ");
     scanf("%d", &n);
