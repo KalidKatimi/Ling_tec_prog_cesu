@@ -171,19 +171,20 @@ int main(){
 
 /* #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <locale.h>
 
 int main() {
+	setlocale(LC_ALL, "Portuguese");
 	
 	int caso, i;
 	
-	for ( i = 1; i < 11 ; i++){
-		printf("Digite %d se voce quer resolver x exercicio\n", i);
+	for( i = 1; i <= 10 ; i++){
+		printf("Digite %d se voce quer resolver o %dº exercicio\n", i,i);
 	}
 	
-	scanf("%d", &i);
+	scanf("%d",&caso);
 	
-	switch (i){
+	switch (caso){
 		case 1:
 			printf("xxx");
 			break;
@@ -195,5 +196,4 @@ int main() {
 	
 	return 0;
 }
-
 */
