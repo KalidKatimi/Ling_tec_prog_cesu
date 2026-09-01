@@ -167,3 +167,33 @@ int main(){
 	return 0;
 }
 
+
+
+/* #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main() {
+	
+	int caso, i;
+	
+	for ( i = 1; i < 11 ; i++){
+		printf("Digite %d se voce quer resolver x exercicio\n", i);
+	}
+	
+	scanf("%d", &i);
+	
+	switch (i){
+		case 1:
+			printf("xxx");
+			break;
+			
+		case 2:
+			printf("iii");
+			break;	
+	}
+	
+	return 0;
+}
+
+*/
