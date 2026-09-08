@@ -76,6 +76,47 @@ int main(){
 
 
 
+#include <stdio.h>
+
+int main(){
+
+    int valor,resto,nota100,nota50,nota10,nota5,nota2,nota1;
+
+    printf("Entre com o valor que deseja sacar: ");
+    scanf("%d", &valor);
+
+    nota100 = valor / 100;
+    resto = valor % 100;
+
+    nota50 = resto / 50;
+    resto = resto % 50;
+
+    nota10 = resto / 10;
+    resto = resto % 10;
+
+    nota5 = resto / 5;  
+    resto = resto % 5;
+
+    nota2 = resto / 2;
+    resto = resto % 2;
+
+    nota1 = resto;
+
+
+      printf("\n100:%d  50:%d  10:%d  5:%d  2:%d  1:%d\n", nota100, nota50, nota10, nota5, nota2, nota1);
+    //printf(" %d = %d")    
+
+
+    return 0;
+
+}
+
+
+
+
+
+
+
 
 
 
