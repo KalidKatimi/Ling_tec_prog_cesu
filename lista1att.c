@@ -19,7 +19,7 @@ int main(){
 
     int opcao;
 
-    system("cls");   /* limpa o terminal antes de mostrar o menu */
+    system("cls");  
 
     mostrar_menu();
 
