@@ -19,11 +19,14 @@ int main(){
 
     int opcao;
 
+    system("cls");   /* limpa o terminal antes de mostrar o menu */
+
     mostrar_menu();
 
     printf("Digite sua opcao: ");
     scanf("%d", &opcao);
-    printf("\n");
+
+    system("cls");  
 
     switch(opcao){
         case 1: inverter_numeros();    break;
@@ -39,6 +42,7 @@ int main(){
     }
 
     return 0;
+
 }
 
 void mostrar_menu(void){
